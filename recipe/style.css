@@ -1,1 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+}
 
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #7b3f00;
+}
+
+img {
+    width: 300px;
+    border: 2px solid #ccc;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    font-weight: bold;
+}
