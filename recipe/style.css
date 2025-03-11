@@ -4,25 +4,36 @@ body {
     line-height: 1.6;
     color: #333;
     margin: 20px;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px
 }
 h1 {
-    font-size: 28px;
+   font-size: 28px;
+    font-weight: bold;
     text-transform: uppercase;
+    color: #b85c5c;
 }
 
 h2 {
-    color: #7b3f00;
+    font-size: 22px;
+    color: #914141;
 }
 
 img {
-    width: 300px;
-    border: 2px solid #ccc;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 ul, ol {
-    margin-left: 20px;
+    width: 50%;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 li {
     font-weight: bold;
+    margin-bottom: 5px;
 }
