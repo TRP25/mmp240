@@ -21,8 +21,9 @@ h1 {
     margin-bottom: 1em;
 }
 img {
-    width:fit-content
-    border: 2px   
+    display: block;
+    margin: 0 auto;
+    width: 300px;  
 }
 li {
     margin-bottom: 1em;
