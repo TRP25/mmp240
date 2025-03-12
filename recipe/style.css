@@ -2,16 +2,19 @@ body {
     background-color: antiquewhite;
     font-family: Arial, sans-serif;
     font-size: 1.125 rem;
-    line-height: 1.6 em;
+    line-height: 1.9 em;
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px #914141
-    padding : 1em;
-    border-radius : 20px;
+    padding : 2em;
+    border-radius : 25px;
+    border: 5px solid ;
+    padding: 20px;
+    margin: auto; 
+    margin-top: 2em;
+    margin-bottom: 2em;/* Centers the body */
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
 }
 
-h1,h2 {
+h1,h2,h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #b85c5c;
 }
@@ -23,7 +26,7 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
-    width: 300px;  
+    width: 300px;
 }
 li {
     margin-bottom: 1em;
