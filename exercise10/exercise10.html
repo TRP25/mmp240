@@ -1,1 +1,74 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10</title>
+    
+    <style>
+        nav li img{
+            float: right;
+        }
+        nav ul{
+            padding: 0;
+        }
+        nav a{
+            display:block;
+            background-color: rgb(184, 212, 184);
+            color: black;
+            text-decoration: none;
+            padding: 0.7em 1em;
+            border-bottom: solid 1px pink;
+        }
+        nav li li a{
+            background-color: lightyellow;
+            color: black;
+        }
+        nav a:hover{
+            background-color: lightblue;
+        }
+        nav li ul{
+            display: none;
+        }
+        nav li:hover ul{
+            display: block;
+        }
+        .material-symbols-outlined{
+            float: right;
+            color: black;
+            padding-top: 15px;
+            size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span>
+                <a href="">Fruits</a>
+                <ul>
+                    <li><a href="#">Bananas</a></li>
+                    <li><a href="#">Apples</a></li>
+                    <li><a href="#">Oranges</a></li>
+                 </ul>
+
+            </li>
+            <li><span class="material-symbols-outlined">arrow_drop_down</span>
+                <a href=""> Vegetables</a>
+                <ul>
+                    <li><a href="#">Cucumber</a></li>
+                    <li><a href="#">Broccoli</a></li>
+                    <li><a href="#">Mushroom</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
