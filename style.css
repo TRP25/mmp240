@@ -1,0 +1,57 @@
+.dropdown{
+    background-color: white;
+    padding:15px;
+    border-radius: 10px;
+    border-style: dashed;
+    
+}
+
+.dropdown ul{
+    background-color: white;
+    display: none;
+}
+
+li.dropdown ul{
+    display:none;
+}
+
+
+li.dropdown:hover ul{
+    display:block;
+    
+}
+
+
+.dropdown{
+    margin-bottom: 1em;
+    /*padding:10px;*/
+    
+}
+
+.dropdown a{
+    text-decoration: outlined;
+    /*padding:10px;
+    margin:10px;*/
+    display:block;
+    color: black;
+    
+}
+
+.dropdown ul {
+    background-color: #eb1c8e;;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.aboutme{
+    background-color: white;
+    padding:2em;
+    margin-left:8em;
+    margin-right:8em;
+    margin-bottom:3em;
+    border-style: none;
+  text-align : center
+      
+}
+
+
