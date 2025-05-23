@@ -78,7 +78,7 @@ border-radius:8px;
     background-color: white;
     padding:15px;
     border-radius: 10px;
-    border-style: solid;
+    border-style: dashed;
 }
 
 .dropdown ul{
@@ -162,21 +162,21 @@ article{
 .articleone{
     background-color: hwb(260 89% 8%);
     padding:10px;
-    border: solid;
+    border: none;
     border-radius: 10px;
 }
 
 .articletwo{
     background-color: hwb(260 89% 8%);
     padding:10px;
-    border: solid;
+    border: none;
     border-radius: 10px;
 }
 
 .articlethree{
     background-color: hwb(260 89% 8%);
     padding:10px;
-    border: solid;
+    border: none;
     border-radius: 10px;
 }
 
